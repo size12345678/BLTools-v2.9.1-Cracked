@@ -1,0 +1,33 @@
+﻿
+[Project Settings]
+ProjectName=finn.no
+[Request Settings]
+Domain=finn.no
+ResponseValide=<a href="/my-reviews" class="ml-8 text-14 font-bold">
+Header5=
+Header4=
+Header3=
+Header2=
+Header1=
+AddHeader5=False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=False
+X-Requested-With=False	XMLHttpRequest
+Referer=False	
+ContentType=True	application/x-www-form-urlencoded
+Accept=True	*/*
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://www.finn.no/my-page
+Method=GET
+
+[Parser Settings]
+ParsURL=https://www.finn.no/my-page
+ParsBefore=</a>
+ParsAfter=<a href="/my-reviews" class="ml-8 text-14 font-bold">
+UseParser=True
+MethodParser=One
+UseURL=True
+

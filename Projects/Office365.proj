@@ -1,0 +1,32 @@
+﻿
+[Project Settings]
+ProjectName=Office365
+[Request Settings]
+Domain=office.com
+ResponseValide="CurrentAccountUpn":"
+Header5=
+Header4=
+Header3=
+Header2=
+Header1=
+AddHeader5=False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=False
+X-Requested-With=False	XMLHttpRequest
+Referer=False	
+ContentType=False	application/x-www-form-urlencoded
+Accept=True	application/json
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://www.office.com/api/checklogin/v3?workload=officehome
+Method=GET
+
+[Parser Settings]
+ParsURL=
+ParsBefore="
+ParsAfter="CurrentAccountUpn":"
+UseParser=True
+MethodParser=One
+UseURL=False

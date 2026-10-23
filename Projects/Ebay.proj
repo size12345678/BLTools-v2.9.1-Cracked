@@ -1,0 +1,15 @@
+﻿
+[Project Settings]
+ProjectName=Ebay
+[Request Settings]
+Domain=ebay.com
+ResponseValide="rawResponse":0}
+X-Requested-With=False	XMLHttpRequest
+Referer=True	https://www.ebay.com/mye/myebay/summary
+ContentType=True	text/plain
+Accept=True	*/*
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Body=
+URL=https://www.ebay.com/gh/user_profile?modules=USER_PROFILE&behavior=GET_PROFILE&moduleType=USER_PROFILE
+Method=GET
+[Parser Settings]
